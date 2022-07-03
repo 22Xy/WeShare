@@ -1,6 +1,7 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:3001" });
+// production server/backend endpoint
+const API = axios.create({ baseURL: "https://weshare-server.vercel.app/" });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("profile")) {
