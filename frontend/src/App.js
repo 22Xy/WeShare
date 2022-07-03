@@ -25,7 +25,6 @@ function App() {
     } else {
       window.location.reload();
     }
-    // console.log(search);
     setSearch("");
   };
 
