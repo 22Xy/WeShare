@@ -32,7 +32,7 @@
 
 ### Tech Stack (MERN):
 
-- Client: [React.js](https://reactjs.org/) &amp; [Tailwind CSS](https://tailwindcss.com/)
+- Client: [React.js](https://reactjs.org/) &amp; [Redux](https://redux.js.org/) &amp; [Tailwind CSS](https://tailwindcss.com/)
 - Server: [Express.js](https://expressjs.com/) &amp; [Node.js](https://nodejs.org/)
 - Database: [MongoDB](https://www.mongodb.com/)
 
