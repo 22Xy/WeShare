@@ -11,7 +11,7 @@ export default function FormModal() {
     <>
       <button
         type="button"
-        className="btn btn-primary px-6 min-h-0 h-10"
+        className="btn btn-primary px-4 sm:px-6 min-h-0 h-10"
         onClick={() => setShowForm(true)}
       >
         Log In

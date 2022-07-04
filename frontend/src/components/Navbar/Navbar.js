@@ -13,7 +13,7 @@ import SearchBar from "./SearchBar";
 
 const navigation = [
   { name: "Posts", current: true },
-  { name: "Feed", current: false },
+  // { name: "Feed", current: false },
 ];
 
 function classNames(...classes) {
@@ -65,17 +65,17 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
               <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                    alt="Workflow"
+                    className="block lg:hidden h-10 w-auto"
+                    src="https://i.imgur.com/pMz5OXw.png"
+                    alt="WeShare"
                   />
                   <img
-                    className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
-                    alt="Workflow"
+                    className="hidden lg:block h-10 w-auto"
+                    src="https://i.imgur.com/Cmi82OQ.png"
+                    alt="WeShare"
                   />
                 </div>
-                <div className="hidden sm:block sm:ml-6">
+                <div className="hidden sm:flex items-center sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <button
