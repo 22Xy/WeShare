@@ -10,7 +10,10 @@ const SearchBar = ({ search, setSearch, handleSearchSubmit }) => {
   // };
 
   return (
-    <form className="flex flex-1 items-center" onSubmit={handleSearchSubmit}>
+    <form
+      className="flex sm:flex-1 mr-20 sm:mr-0 items-center"
+      onSubmit={handleSearchSubmit}
+    >
       <label htmlFor="simple-search" className="sr-only">
         Search
       </label>
@@ -41,7 +44,7 @@ const SearchBar = ({ search, setSearch, handleSearchSubmit }) => {
       </div>
       <button
         type="submit"
-        className="p-2.5 ml-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        className="hidden sm:flex p-2.5 ml-2 text-sm font-medium text-white bg-blue-700 rounded-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
       >
         <svg
           className="w-5 h-5"

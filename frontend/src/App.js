@@ -36,13 +36,16 @@ function App() {
         handleSearchSubmit={handleSearchSubmit}
       />
       <div className="container mx-auto pt-8">
-        <div className="flex flex-col-reverse sm:grid sm:grid-cols-7 mx-auto px-2 sm:px-5">
-          <div className="col-span-5 sm:pr-4">
-            <Posts setCurrentId={setCurrentId} />
-          </div>
-          <div className="col-span-2 px-2 sm:px-0">
-            <Form currentId={currentId} setCurrentId={setCurrentId} />
-          </div>
+        <div className="flex justify-center">
+          <Form currentId={currentId} setCurrentId={setCurrentId} />
+        </div>
+
+        <div className="mx-auto px-2 sm:px-5">
+          {/* <div className="col-span-5 sm:pr-4"> */}
+          <Posts setCurrentId={setCurrentId} />
+          {/* </div> */}
+          {/* <div className="col-span-2 px-2 sm:px-0">
+          </div> */}
         </div>
       </div>
     </div>

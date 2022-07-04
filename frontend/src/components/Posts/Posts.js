@@ -32,7 +32,23 @@ const Posts = ({ setCurrentId }) => {
 
   const { width } = useWindowDimensions();
 
-  let nc = width >= 1280 ? 3 : 2;
+  // const breakPoint =
+  //   width >= 1280 ? "xl" : width >= 1024 ? "lg" : width >= 768 ? "md" : "sm";
+
+  let nc = width >= 1024 ? 3 : 2;
+  // switch (breakPoint) {
+  //   case "xl":
+  //     nc = 4;
+  //     break;
+  //   case "lg":
+  //     nc = 4;
+  //     break;
+  //   case "md":
+  //     nc = 3;
+  //     break;
+  //   default:
+  //     nc = 2;
+  // }
   // console.log(nc);
 
   const options = useMemo(

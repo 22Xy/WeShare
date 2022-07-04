@@ -1,7 +1,7 @@
 // from example https://tailwindui.com/components/application-ui/navigation/navbars
 import { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { MenuIcon, XIcon } from "@heroicons/react/outline";
+// import { MenuIcon, XIcon } from "@heroicons/react/outline";
 // eslint-disable-next-line no-unused-vars
 import { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
@@ -51,8 +51,8 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
             <div className="relative flex items-center justify-between h-16">
-              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                {/* Mobile menu button*/}
+              {/* Mobile menu button*/}
+              {/* <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
@@ -61,8 +61,8 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
                     <MenuIcon className="block h-6 w-6" aria-hidden="true" />
                   )}
                 </Disclosure.Button>
-              </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+              </div> */}
+              <div className="sm:flex-1 ml-3 sm:ml-0 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
                   <img
                     className="block lg:hidden h-10 w-auto"
@@ -75,7 +75,7 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
                     alt="WeShare"
                   />
                 </div>
-                <div className="hidden sm:flex items-center sm:ml-6">
+                {/* <div className="hidden sm:flex items-center sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                       <button
@@ -92,7 +92,7 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
                       </button>
                     ))}
                   </div>
-                </div>
+                </div> */}
               </div>
               {user && (
                 <SearchBar
@@ -106,7 +106,7 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
                 {user ? (
                   <Menu as="div" className="ml-3 relative">
                     <div className="flex flex-row">
-                      <div className="flex text-white items-center mr-2 sm:mr-4">
+                      <div className="hidden sm:flex text-white items-center mr-2 sm:mr-4">
                         {user?.result.name}
                       </div>
 
