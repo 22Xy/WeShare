@@ -11,10 +11,10 @@ import decode from "jwt-decode";
 import FormModal from "./FormModal/FormModal";
 import SearchBar from "./SearchBar";
 
-const navigation = [
-  { name: "Posts", current: true },
-  // { name: "Feed", current: false },
-];
+// const navigation = [
+//   { name: "Posts", current: true },
+//   // { name: "Feed", current: false },
+// ];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -106,7 +106,7 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
                 {user ? (
                   <Menu as="div" className="ml-3 relative">
                     <div className="flex flex-row">
-                      <div className="hidden sm:flex text-white items-center mr-2 sm:mr-4">
+                      <div className="hidden sm:flex text-white items-center mr-2 sm:mr-3">
                         {user?.result.name}
                       </div>
 
@@ -179,7 +179,7 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden">
+          {/* <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Disclosure.Button
@@ -197,7 +197,7 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
                 </Disclosure.Button>
               ))}
             </div>
-          </Disclosure.Panel>
+          </Disclosure.Panel> */}
         </>
       )}
     </Disclosure>
