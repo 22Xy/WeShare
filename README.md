@@ -54,5 +54,5 @@
   - Recommendation algorithm
   - Collecting user data for the algorithm
 
-### Credit
+### Credit:
 Inspired by [JavaScript Mastery](https://www.youtube.com/c/JavaScriptMastery)'s MERN project tutorial.
