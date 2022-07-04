@@ -53,3 +53,6 @@
 - [ ] Feed/Recommendation page
   - Recommendation algorithm
   - Collecting user data for the algorithm
+
+### Credit
+Inspired by [JavaScript Mastery](https://www.youtube.com/c/JavaScriptMastery)'s MERN project tutorial.
