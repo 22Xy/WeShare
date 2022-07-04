@@ -64,16 +64,21 @@ export default function Navbar({ search, setSearch, handleSearchSubmit }) {
               </div> */}
               <div className="sm:flex-1 ml-3 sm:ml-0 flex items-center justify-center sm:items-stretch sm:justify-start">
                 <div className="flex-shrink-0 flex items-center">
-                  <img
-                    className="block lg:hidden h-10 w-auto"
-                    src="https://i.imgur.com/pMz5OXw.png"
-                    alt="WeShare"
-                  />
-                  <img
-                    className="hidden lg:block h-10 w-auto"
-                    src="https://i.imgur.com/Cmi82OQ.png"
-                    alt="WeShare"
-                  />
+                  <a href="/">
+                    {" "}
+                    <img
+                      className="block lg:hidden h-10 w-auto"
+                      src="https://i.imgur.com/pMz5OXw.png"
+                      alt="WeShare"
+                    />
+                  </a>
+                  <a href="/">
+                    <img
+                      className="hidden lg:block h-10 w-auto"
+                      src="https://i.imgur.com/Cmi82OQ.png"
+                      alt="WeShare"
+                    />
+                  </a>
                 </div>
                 {/* <div className="hidden sm:flex items-center sm:ml-6">
                   <div className="flex space-x-4">
