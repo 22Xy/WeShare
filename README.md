@@ -30,13 +30,13 @@
 ![](https://i.imgur.com/qAyufbE.png)
 ![](https://i.imgur.com/cqS9xGC.png)
 
-### Tech Stack (MERN):
+## Tech Stack (MERN):
 
 - Client: [React.js](https://reactjs.org/) &amp; [Redux](https://redux.js.org/) &amp; [Tailwind CSS](https://tailwindcss.com/)
 - Server: [Express.js](https://expressjs.com/) &amp; [Node.js](https://nodejs.org/)
 - Database: [MongoDB](https://www.mongodb.com/)
 
-### TODO:
+## TODO:
 
 - [ ] Home page lazy loading
   - Resources: [Lazy loading in React](https://www.loginradius.com/blog/engineering/lazy-loading-in-react/)
@@ -54,5 +54,5 @@
   - Recommendation algorithm
   - Collecting user data for the algorithm
 
-### Credit:
+## Credit:
 Inspired by [JavaScript Mastery](https://www.youtube.com/c/JavaScriptMastery)'s MERN project tutorial.
