@@ -4,37 +4,39 @@
 
 **_WeShare_** is a social media platform where people share interesting stuff!
 
-#### Dynamic Grid Layout Home Page
+## Feature Preview
+
+### Dynamic Grid Layout Home Page
 
 ![](https://i.imgur.com/QqMLUdV.png)
 ![](https://i.imgur.com/BA8QjZz.png)
 
-#### Dark Mode
+### Dark Mode
 
 ![](https://i.imgur.com/8pYdA7l.png)
 
-#### Like/Unlike Post
+### Like/Unlike Post
 
 ![](https://i.imgur.com/ARbsJm1.jpg)
 
-#### Create & Edit & Delete Posts
+### Create & Edit & Delete Posts
 
 ![](https://i.imgur.com/g6PmOR3.png)
 ![](https://i.imgur.com/6PSn6mh.png)
 
-#### JWT & Google Authentication
+### JWT & Google Authentication
 
 ![](https://i.imgur.com/sFFiCbe.png)
 ![](https://i.imgur.com/qAyufbE.png)
 ![](https://i.imgur.com/cqS9xGC.png)
 
-#### Tech Stack (MERN):
+### Tech Stack (MERN):
 
 - Client: [React.js](https://reactjs.org/) &amp; [Tailwind CSS](https://tailwindcss.com/)
 - Server: [Express.js](https://expressjs.com/) &amp; [Node.js](https://nodejs.org/)
 - Database: [MongoDB](https://www.mongodb.com/)
 
-#### TODO:
+### TODO:
 
 - [ ] Home page lazy loading
   - Resources: [Lazy loading in React](https://www.loginradius.com/blog/engineering/lazy-loading-in-react/)
